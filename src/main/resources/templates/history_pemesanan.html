@@ -38,6 +38,7 @@
                     <th>Billing Address</th>
                     <th>City</th>
                     <th>Order Id</th>
+                    <th>Shipping Method</th>
                     <th>Employee Id</th>
                     <th>Emplyee Name</th>
                     <th>Order Date</th>
@@ -62,6 +63,7 @@
                     <td th:text="${pemesanan.billingAddress}">Billing Address</td>
                     <td th:text="${pemesanan.city}">City</td>
                     <td th:text="${pemesanan.orderId}">Order Id</td>
+                    <td th:text="${pemesanan.shippingMethod}">Shipping Method</td>
                     <td th:text="${pemesanan.employeeId}">Employee Id</td>
                     <td th:text="${pemesanan.employeeName}">Employee Name</td>
                     <td th:text="${#dates.format(pemesanan.orderDate,'dd/MMM/yyyy')}">Order Date</td>
